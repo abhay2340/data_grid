@@ -1,9 +1,9 @@
 import { useState } from "react";
 import data from "./Test.json";
 import "./App.css";
-import structure from "./structure";
-import { getValue } from "./helpers";
-import sort from "./sort";
+import structure from "./ExtractObjectStructure";
+import { getValue } from "./ValueResolver";
+import sort from "./sortData";
 
 function App() {
 
