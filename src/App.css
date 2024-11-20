@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Keep the body from scrolling */
+}
+
+.container {
+  overflow-x: auto; /* Horizontal scrolling for wide tables */
+  overflow-y: auto; /* Enable vertical scrolling */
+  white-space: nowrap;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: max-content;
+  margin: 0 auto;
+}
+
+th {
+  background-color: #e7a4a4;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #ebebeb;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:hover {
+  background-color: #504c4c;
+  color: white;
+}
